@@ -1,19 +1,18 @@
 {
+  "manifest_version": "1",
   "name": "MinimalCompass",
-  "version": "0.1.0",
   "namespace": "MinimalCompass",
-  "package": "MinimalCompass.dll",
-  "manifest_version": 1,
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "name": "Seali"
+    }
+  ],
   "description": "A very minimal compass that is inspired by Player Unknown Battlegrounds (and possibly Skyrim's).",
   "dependencies": {
     "bh.blishhud": ">=0.5.2"
   },
   "url": "https://github.com/GW2Seali/MinimalCompass",
   "location": "https://github.com/GW2Seali/MinimalCompass/releases/download/v0.1.0/MinimalCompass.bhm",
-  "hash": "sha256:6ef6cde3dd37208f7911585fed5b55afb5b152582815859c19655026536030f1",
-  "contributors": [
-    {
-      "name": "Seali"
-    }
-  ]
+  "hash": "6EF6CDE3DD37208F7911585FED5B55AFB5B152582815859C19655026536030F1"
 }
