@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalCompass", "MinimalCompass\MinimalCompass.csproj", "{5F0F8CCB-BF5E-407A-AE22-FA8469B3BD9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F0F8CCB-BF5E-407A-AE22-FA8469B3BD9A}.Debug|x64.ActiveCfg = Debug|x64
+		{5F0F8CCB-BF5E-407A-AE22-FA8469B3BD9A}.Debug|x64.Build.0 = Debug|x64
+		{5F0F8CCB-BF5E-407A-AE22-FA8469B3BD9A}.Release|x64.ActiveCfg = Release|x64
+		{5F0F8CCB-BF5E-407A-AE22-FA8469B3BD9A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C325103-DA4A-421E-AA17-4B828FAE6511}
+	EndGlobalSection
+EndGlobal

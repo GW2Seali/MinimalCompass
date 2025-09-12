@@ -416,3 +416,11 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+*.dll
+*.exe
+src/MinimalCompass/SharpDX.D3DCompiler.xml
+src/MinimalCompass/mgfxc.deps.json
+src/MinimalCompass/mgfxc.runtimeconfig.dev.json
+src/MinimalCompass/mgfxc.runtimeconfig.json
+src/MinimalCompass/SharpDX.xml
+**/.idea
