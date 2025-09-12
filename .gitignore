@@ -424,3 +424,13 @@ src/MinimalCompass/mgfxc.runtimeconfig.dev.json
 src/MinimalCompass/mgfxc.runtimeconfig.json
 src/MinimalCompass/SharpDX.xml
 **/.idea
+MinimalCompass/mgfxc.deps.json
+MinimalCompass/mgfxc.runtimeconfig.dev.json
+MinimalCompass/mgfxc.runtimeconfig.json
+MinimalCompass/SharpDX.D3DCompiler.xml
+MinimalCompass/SharpDX.xml
+mgfxc.deps.json
+mgfxc.runtimeconfig.dev.json
+mgfxc.runtimeconfig.json
+SharpDX.D3DCompiler.xml
+SharpDX.xml

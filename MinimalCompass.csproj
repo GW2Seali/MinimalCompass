@@ -76,30 +76,30 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Blish HUD, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\BlishHUD.1.2.0\lib\net472\Blish HUD.exe</HintPath>
+      <HintPath>packages\BlishHUD.1.2.0\lib\net472\Blish HUD.exe</HintPath>
     </Reference>
     <Reference Include="Gw2Sharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Gw2Sharp.1.7.4\lib\netstandard2.0\Gw2Sharp.dll</HintPath>
+      <HintPath>packages\Gw2Sharp.1.7.4\lib\netstandard2.0\Gw2Sharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives" />
     <Reference Include="MonoGame.Extended, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MonoGame.Extended.3.8.0\lib\netstandard2.0\MonoGame.Extended.dll</HintPath>
+      <HintPath>packages\MonoGame.Extended.3.8.0\lib\netstandard2.0\MonoGame.Extended.dll</HintPath>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.8.0.1641, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.8.0.1641\lib\net452\MonoGame.Framework.dll</HintPath>
+      <HintPath>packages\MonoGame.Framework.WindowsDX.3.8.0.1641\lib\net452\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="NAudio.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
-      <HintPath>..\packages\NAudio.Core.2.0.0\lib\netstandard2.0\NAudio.Core.dll</HintPath>
+      <HintPath>packages\NAudio.Core.2.0.0\lib\netstandard2.0\NAudio.Core.dll</HintPath>
     </Reference>
     <Reference Include="NAudio.Wasapi, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
-      <HintPath>..\packages\NAudio.Wasapi.2.0.0\lib\netstandard2.0\NAudio.Wasapi.dll</HintPath>
+      <HintPath>packages\NAudio.Wasapi.2.0.0\lib\netstandard2.0\NAudio.Wasapi.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
       <HintPath>packages\SharpDX.4.0.1\lib\net45\SharpDX.dll</HintPath>
@@ -149,7 +149,7 @@
     <Reference Include="System" />
     <Reference Include="System.AppContext" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Console" />
@@ -165,7 +165,7 @@
     <Reference Include="System.Linq" />
     <Reference Include="System.Linq.Expressions" />
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Sockets" />
@@ -177,11 +177,11 @@
     </Reference>
     <Reference Include="System.Reflection" />
     <Reference Include="System.Resources.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Resources.Extensions.6.0.0\lib\net461\System.Resources.Extensions.dll</HintPath>
+      <HintPath>packages\System.Resources.Extensions.6.0.0\lib\net461\System.Resources.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Extensions" />
     <Reference Include="System.Runtime.InteropServices" />
@@ -192,17 +192,17 @@
     <Reference Include="System.Security.Cryptography.X509Certificates" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Primitives, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ServiceModel.Primitives.4.9.0\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+      <HintPath>packages\System.ServiceModel.Primitives.4.9.0\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encodings.Web, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Encodings.Web.5.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+      <HintPath>packages\System.Text.Encodings.Web.5.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Json, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Json.5.0.0\lib\net461\System.Text.Json.dll</HintPath>
+      <HintPath>packages\System.Text.Json.5.0.0\lib\net461\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.RegularExpressions" />
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
@@ -340,8 +340,8 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets'))" />
-    <Error Condition="!Exists('..\packages\BlishHUD.1.2.0\build\BlishHUD.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\BlishHUD.1.2.0\build\BlishHUD.targets'))" />
+    <Error Condition="!Exists('packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets'))" />
+    <Error Condition="!Exists('packages\BlishHUD.1.2.0\build\BlishHUD.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\BlishHUD.1.2.0\build\BlishHUD.targets'))" />
   </Target>
   <Import Project="packages\BlishHUD.0.5.2-alpha.648\build\BlishHUD.targets" Condition="Exists('packages\BlishHUD.0.5.2-alpha.648\build\BlishHUD.targets')" />
   <ProjectExtensions>
@@ -349,8 +349,8 @@
       <UserProperties manifest_1json__JsonSchema="" />
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets" Condition="Exists('..\packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets')" />
-  <Import Project="..\packages\BlishHUD.1.2.0\build\BlishHUD.targets" Condition="Exists('..\packages\BlishHUD.1.2.0\build\BlishHUD.targets')" />
+  <Import Project="packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets" Condition="Exists('packages\MonoGame.Framework.WindowsDX.3.8.0.1641\build\MonoGame.Framework.WindowsDX.targets')" />
+  <Import Project="packages\BlishHUD.1.2.0\build\BlishHUD.targets" Condition="Exists('packages\BlishHUD.1.2.0\build\BlishHUD.targets')" />
 
     <ItemGroup>
         <None Include="ref/255282.png" />
