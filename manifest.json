@@ -1,10 +1,9 @@
 {
   "name": "MinimalCompass",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "namespace": "MinimalCompass",
   "package": "MinimalCompass.dll",
   "manifest_version": 1,
-  
   "description": "A very minimal compass that is inspired by Player Unknown Battlegrounds (and possibly Skyrim's).",
   "dependencies": {
     "bh.blishhud": ">=0.5.2"
