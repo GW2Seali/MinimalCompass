@@ -12,6 +12,20 @@ namespace MinimalCompass.Controls
 	public sealed class CompassControl : Control
 	{
 		public float DistortionFactor { get; private set; } = 0.02f;
+
+		private float _locationFactorX = 0.5f;
+		public float LocationFactorX
+		{
+			get => _locationFactorX;
+			set => SetProperty(ref _locationFactorX, Math.Min(Math.Max(value, 0f), 1f), true);
+		}
+
+		private float _locationFactorY = 0.1f;
+		public float LocationFactorY
+		{
+			get => _locationFactorY;
+			set => SetProperty(ref _locationFactorY, Math.Min(Math.Max(value, 0f), 1f), true);
+		}
 		
 		private const float ViewAngle = 90f;
 		private const int BaseTickHeight = 15;
@@ -20,8 +34,12 @@ namespace MinimalCompass.Controls
 
 		public CompassControl()
 		{
+			Parent = GameService.Graphics.SpriteScreen;
 			_size = new Point(300, 100);
-			Location = new Point((GameService.Graphics.SpriteScreen.Width - _size.X) / 2, 10);
+			Location = new Point(
+				(int)((GameService.Graphics.SpriteScreen.Width - Width) * LocationFactorX), 
+				(int)((GameService.Graphics.SpriteScreen.Height - Height) * LocationFactorY)
+				);
 		}
 
 		/// <inheritdoc />
@@ -61,7 +79,7 @@ namespace MinimalCompass.Controls
 				double normalizedDegree = (degree % 360 + 360) % 360;
 
 				double currentTickHeight = BaseTickHeight * scale;
-				string label = null;
+				string? label = null;
 
 				if (normalizedDegree % 90 == 0)
 				{
@@ -123,9 +141,16 @@ namespace MinimalCompass.Controls
 		/// <inheritdoc />
 		public override void RecalculateLayout()
 		{
-			base.RecalculateLayout();
-			
-			Location = new Point((GameService.Graphics.SpriteScreen.Width - _size.X) / 2, 10);
+			Location = new Point(
+				(int)((GameService.Graphics.SpriteScreen.Width - Width) * LocationFactorX), 
+				(int)((GameService.Graphics.SpriteScreen.Height - Height) * LocationFactorY)
+				);
+		}
+		
+		public void SetLocationFactor(float xFactor, float yFactor)
+		{
+			LocationFactorX = Math.Min(Math.Max(xFactor, 0f), 1f);
+			LocationFactorY = Math.Min(Math.Max(yFactor, 0f), 1f);
 		}
 
 		/// <inheritdoc />
